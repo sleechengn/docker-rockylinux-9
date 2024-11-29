@@ -10,5 +10,5 @@ RUN chmod +x /change-root-pwd.sh
 EXPOSE 22/tcp
 ENV ROOT_PASSWORD=
 CMD []
-ENTRYPOINT /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
 
